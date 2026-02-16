@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Karnataka Rakshana Vedike Certificate Generator",
+  "description": "A high-quality certificate generator for Karnataka Rakshana Vedike with support for Kannada text, photo overlays, and custom layout editing.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
