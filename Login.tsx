@@ -106,7 +106,7 @@ const Login: React.FC<LoginProps> = ({ onSuccess }) => {
           <div className="mt-12 pt-8 border-t border-slate-50 text-center">
             <p className="text-[10px] text-slate-300 font-bold uppercase tracking-widest leading-relaxed">
               © 2024 KRV Pro Studio<br/>
-              Enterprise Edition
+              By GrowB
             </p>
           </div>
         </div>
