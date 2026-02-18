@@ -48,7 +48,7 @@ const INITIAL_LAYOUT_CERT1: FullLayout = {
       { id: "validity_label", text: "ಸಿಂಧುತ್ವ: {validity}", x: 50, y: 1182, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 300, lineHeight: 1.2, isVisible: true },
       { id: "right_president_block", text: "ಹೆಚ್. ಶಿವರಾಮೇಗೌಡ\nರಾಜ್ಯಾಧ್ಯಕ್ಷರು", x: 600, y: 1146, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 350, lineHeight: 1.5, isVisible: true }
     ],
-    photo: { id: "member_photo", x: 761, y: 304, width: 158, height: 190, isLocked: true, objectFit: "cover", borderRadius: 0, imageScale: 0.92, imageOffsetX: 0, imageOffsetY: -2 }
+      photo: { id: "member_photo", x: 761, y: 304, width: 158, height: 190, isLocked: true, objectFit: "cover", borderRadius: 0, imageScale: 0.92, imageOffsetX: 0, imageOffsetY: -2 }
   }]
 };
 
@@ -535,7 +535,8 @@ const App: React.FC<AppProps> = ({ onLogout }) => {
               {selectedElement.id === 'member_photo' ? (
                 <div className="space-y-4">
                   <div className="space-y-1"><div className="flex justify-between text-[8px] font-black text-slate-500 uppercase"><span>Zoom</span><span className="text-white">{(selectedItemData as PhotoItem).imageScale.toFixed(2)}x</span></div><input type="range" min="0.1" max="3" step="0.01" value={(selectedItemData as PhotoItem).imageScale} onChange={e => updateItem(selectedElement.sideIdx, 'member_photo', {imageScale: +e.target.value})} className="w-full accent-red-600" /></div>
-                  <div className="space-y-1"><div className="flex justify-between text-[8px] font-black text-slate-500 uppercase"><span>Vertical Pos</span><span className="text-white">{(selectedItemData as PhotoItem).imageOffsetY}px</span></div><input type="range" min="-300" max="300" value={(selectedItemData as PhotoItem).imageOffsetY} onChange={e => updateItem(selectedElement.sideIdx, 'member_photo', {imageOffsetY: +e.target.value})} className="w-full accent-red-600" /></div>
+                  <div className="space-y-1"><div className="flex justify-between text-[8px] font-black text-slate-500 uppercase"><span>Horizontal Pos</span><span className="text-white">{(selectedItemData as PhotoItem).imageOffsetX}px</span></div><input type="range" min="-500" max="500" value={(selectedItemData as PhotoItem).imageOffsetX} onChange={e => updateItem(selectedElement.sideIdx, 'member_photo', {imageOffsetX: +e.target.value})} className="w-full accent-red-600" /></div>
+                  <div className="space-y-1"><div className="flex justify-between text-[8px] font-black text-slate-500 uppercase"><span>Vertical Pos</span><span className="text-white">{(selectedItemData as PhotoItem).imageOffsetY}px</span></div><input type="range" min="-500" max="500" value={(selectedItemData as PhotoItem).imageOffsetY} onChange={e => updateItem(selectedElement.sideIdx, 'member_photo', {imageOffsetY: +e.target.value})} className="w-full accent-red-600" /></div>
                 </div>
               ) : (
                 <div className="space-y-4">
@@ -624,17 +625,18 @@ const App: React.FC<AppProps> = ({ onLogout }) => {
                     borderRadius: `${side.photo.borderRadius}px`, 
                     cursor: isGlobalLocked ? 'default' : (side.photo.isLocked ? 'not-allowed' : 'move'),
                     backgroundColor: '#e2e8f0',
-                    display: 'block'
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center'
                   }}
                 >
-                  <div 
+                  <img 
+                    src={photoData}
+                    alt="member"
                     style={{ 
-                      width: '100%', 
-                      height: '100%', 
-                      backgroundImage: `url(${photoData})`,
-                      backgroundPosition: 'center',
-                      backgroundSize: side.photo.objectFit === 'cover' ? 'cover' : 'contain',
-                      backgroundRepeat: 'no-repeat',
+                      maxWidth: '100%',
+                      maxHeight: '100%',
+                      objectFit: side.photo.objectFit === 'cover' ? 'cover' : 'contain',
                       transform: `scale(${side.photo.imageScale}) translate(${side.photo.imageOffsetX}px, ${side.photo.imageOffsetY}px)`,
                       pointerEvents: 'none'
                     }} 
