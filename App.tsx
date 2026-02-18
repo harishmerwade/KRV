@@ -28,10 +28,10 @@ import './styles.css';
 const STORAGE_KEY_PREFIX = 'krv_studio_v21';
 
 const TEMPLATE_URLS = {
-  cert1: 'https://raw.githubusercontent.com/harishmerwade/KRV/709c8c68706c31a15dd4b87607082457cc7950d0/Img/temp%201.png',
-  cert2: 'https://raw.githubusercontent.com/harishmerwade/KRV/709c8c68706c31a15dd4b87607082457cc7950d0/Img/temp%202.png',
-  id_front: 'https://raw.githubusercontent.com/harishmerwade/KRV/01db17fc1b9b8abd5cd53129a0d41af4b82cd3d7/Img/1.png',
-  id_back: 'https://raw.githubusercontent.com/harishmerwade/KRV/4f41320da84f031c49204ae4b282ca72acc4119a/Img/2.png' 
+  cert1: 'https://raw.githubusercontent.com/harishmerwade/KRV/b9f76749d456c87a092ffdf8b9ffae6986ac435f/Img/temp%201.png',
+  cert2: 'https://raw.githubusercontent.com/harishmerwade/KRV/b9f76749d456c87a092ffdf8b9ffae6986ac435f/Img/temp%202.png',
+  id_front: 'https://raw.githubusercontent.com/harishmerwade/KRV/b9f76749d456c87a092ffdf8b9ffae6986ac435f/Img/1.png',
+  id_back: 'https://raw.githubusercontent.com/harishmerwade/KRV/b9f76749d456c87a092ffdf8b9ffae6986ac435f/Img/2.png' 
 };
 
 const INITIAL_LAYOUT_CERT1: FullLayout = {
@@ -79,7 +79,7 @@ const INITIAL_LAYOUT_ID: FullLayout = {
       textItems: [
         { id: "id_name", text: "{name}", x: 238.27567164179106, y: 262.51, fontSize: 36, color: "#000000", isBold: true, isLocked: false, width: 500, lineHeight: 1.2, isVisible: true },
         { id: "id_post", text: "{post}", x: 238.27567164179106, y: 314.05, fontSize: 24, color: "#c53030", isBold: true, isLocked: false, width: 500, lineHeight: 1.2, isVisible: true },
-        { id: "id_contact", text: "{city}\nಕ.ರ.ವೇ ನೊಂದಣಿ ಸಂಖ್ಯೆ : {employeeId}\n{phone}", x: 245.8307462686567, y: 351.8858208955224, fontSize: 18, color: "#000000", isBold: true, isLocked: false, width: 500, lineHeight: 1.8, isVisible: true }
+        { id: "id_contact", text: "{city}\nನೊಂದಣಿ ಸಂಖ್ಯೆ : {employeeId}\n{phone}", x: 245.8307462686567, y: 351.8858208955224, fontSize: 18, color: "#000000", isBold: true, isLocked: false, width: 500, lineHeight: 1.8, isVisible: true }
       ],
       photo: { id: "member_photo", x: 686.14776119403, y: 200.6417910447761, width: 265, height: 308, isLocked: false, objectFit: "cover", borderRadius: 8, imageScale: 1.22, imageOffsetX: 14, imageOffsetY: -3 }
     },
@@ -519,7 +519,7 @@ const App: React.FC<AppProps> = ({ onLogout }) => {
 
           <section className="space-y-4 pt-4 border-t border-slate-100">
             <div className="flex items-center gap-2 text-slate-400"><ImageIcon size={14} /><h2 className="text-[10px] font-black uppercase tracking-widest">Profile Image</h2></div>
-            <label className="cursor-pointer bg-slate-50 hover:bg-slate-100 p-6 rounded-2xl border-2 border-dashed border-slate-200 text-center transition-all block group">
+            <label className="cursor-pointer p-6 rounded-2xl border-2 border-dashed border-slate-200 text-center transition-all block group">
               <ImageIcon className="mx-auto mb-2 text-slate-300 group-hover:text-red-600 transition-colors" size={24} /><p className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Update Photo</p>
               <input type="file" className="hidden" accept="image/*" onChange={handlePhotoUpload} />
             </label>
@@ -624,7 +624,7 @@ const App: React.FC<AppProps> = ({ onLogout }) => {
                     height: `${side.photo.height}px`, 
                     borderRadius: `${side.photo.borderRadius}px`, 
                     cursor: isGlobalLocked ? 'default' : (side.photo.isLocked ? 'not-allowed' : 'move'),
-                    backgroundColor: '#e2e8f0',
+                    backgroundColor: 'transparent',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center'
