@@ -58,7 +58,7 @@ const INITIAL_LAYOUT_CERT2: FullLayout = {
     canvasHeight: 1414,
     backgroundImage: TEMPLATE_URLS.cert2,
     textItems: [
-      { id: "pledge_text_1", text: "ಹೆಚ್. ಶಿವರಾಮೇಗೌಡರ ಕರ್ನಾಟಕ ರಕ್ಷಣಾ ವೇದಿಕೆಯ ರಾಜ್ಯಾಧ್ಯಕ್ಷರ ನೇತೃತ್ವದಲ್ಲಿ ಸತ್ಯ, ನ್ಯಾಯ-ಧರ್ಮವನ್ನು ಪಾಲಿಸಿಕೊಂಡು, ಆತ್ಮಪೂರ್ವಕವಾಗಿ ಈ ಕೆಳಕಂಡ ಪ್ರತಿಜ್ಞಾವಿಧಿಯ ಪ್ರಮಾಣವಚನ ಸ್ವೀಕರಿಸುತ್ತಿದ್ದೇನೆ.", x: 19.9, y: 506.99, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 965, lineHeight: 1.6, isVisible: true },
+      { id: "pledge_text_1", text: "ಹೆಚ್. ಶಿವರಾಮೇಗೌಡರ ಕರ್ನಾಟಕ ರಕ್ಷಣಾ ವೇದಿಕೆಯ ರಾಜ್ಯಾಧ್ಯಕ್ಷರ ನೇತೃತ್ವದಲ್ಲಿ ಸತ್ಯ, ನ್ಯಾಯ-ಧರ್ಮವನ್ನು ಪಾಲಿಸಿಕೊಂಡು, ಆತ್ಮಪೂರ್ವಕವಾಗಿ ಈ ಕೆಳಕಂಡ ಪ್ರತಿಜ್ಞಾವಿಧಿಯ ಪ್ರಮಾಣವಚನ ಸ್ವೀಕರಿಸುತ್ತಿದ್ದೇನೆ", x: 19.9, y: 506.99, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 965, lineHeight: 1.6, isVisible: true },
       { id: "pledge_text_2", text: "ಕನ್ನಡ ನಾಡು, ನುಡಿ, ನೆಲ, ಜಲ, ಗಡಿ, ಭಾಷೆ ಸಂಸ್ಕೃತಿಯನ್ನು ಉಳಿಸಿ ಬೆಳೆಸುವ ಮಹತ್ತರ ಕಾರ್ಯದಲ್ಲಿ ನಾವೆಲ್ಲರೂ ಕನ್ನಡಾಂಬೆಯ ಸುಪುತ್ರ / ಸುಪುತ್ರಿಯರಾಗಿ ಒಮ್ಮತದಿಂದ ಶ್ರಮಿಸುತ್ತೇವೆ ಎಂದು ಈ ಮೂಲಕ ಪ್ರತಿಜ್ಞೆ ಮಾಡಿ ಕೆಳಗೆ ಸಹಿ ಹಾಕಿರುತ್ತೇನೆ.", x: 48.54, y: 574.4, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 907, lineHeight: 1.6, isVisible: true },
       { id: "recipient_sig_label", text: "ಪ್ರತಿಜ್ಞಾವಿಧಿ ಸ್ವೀಕರಿಸಿದವರ ಸಹಿ", x: 651.26, y: 734.65, fontSize: 18, color: "#000000", isBold: true, isLocked: false, width: 300, lineHeight: 1.2, isVisible: true },
       { id: "appointment_block", text: "ಶ್ರೀಮತಿ/ಶ್ರೀಯುತ {name} ರವರನ್ನು ರಾಜ್ಯಾಧ್ಯಕ್ಷರ ಹಾಗೂ ಸರ್ವಸಮಿತಿಯ ಆದೇಶದ ಮೇರೆಗೆ {post} ರನ್ನಾಗಿ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದ್ದು, ಶ್ರೀಯುತರು ಇಂದಿನಿಂದ ತಮ್ಮ ವ್ಯಾಪ್ತಿಯಲ್ಲಿ ಸಂಘಟನೆಯನ್ನು ಕ್ರಿಯಾಶೀಲರಾಗಿ ಮುನ್ನಡೆಸಿಕೊಂಡು ಹಾಗೂ ಯಾವುದೇ ಕಾನೂನುಬಾಹಿರ ಚಟುವಟಿಕೆಗಳಲ್ಲಿ ಭಾಗಿಯಾಗದೇ ತಮ್ಮ ಜವಾಬ್ದಾರಿಯನ್ನು ದುರುಪಯೋಗಪಡಿಸಿಕೊಳ್ಳದಂತೆ ಮುಂದುವರೆಯಬೇಕೆಂದು ಆದೇಶಿಸುತ್ತೇನೆ.", x: 48.23, y: 825.54, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 872, lineHeight: 1.8, isVisible: true },
@@ -79,7 +79,7 @@ const INITIAL_LAYOUT_ID: FullLayout = {
       textItems: [
         { id: "id_name", text: "{name}", x: 263.81, y: 262.51, fontSize: 36, color: "#000000", isBold: true, isLocked: false, width: 500, lineHeight: 1.2, isVisible: true },
         { id: "id_post", text: "{post}", x: 263.81, y: 314.05, fontSize: 24, color: "#c53030", isBold: true, isLocked: false, width: 500, lineHeight: 1.2, isVisible: true },
-        { id: "id_contact", text: "ಬೆಂಗಳೂರು ನಗರ ಜಿಲ್ಲೆ\nಕ.ರ.ವೇ ನೊಂದಣಿ ಸಂಖ್ಯೆ : 1529\nದೂರವಾಣಿ: {phone}", x: 259.58, y: 353.85, fontSize: 18, color: "#000000", isBold: true, isLocked: false, width: 500, lineHeight: 1.8, isVisible: true }
+        { id: "id_contact", text: "{city}\nಕ.ರ.ವೇ ನೊಂದಣಿ ಸಂಖ್ಯೆ : {employeeId}\n{phone}", x: 259.58, y: 353.85, fontSize: 18, color: "#000000", isBold: true, isLocked: false, width: 500, lineHeight: 1.8, isVisible: true }
       ],
       photo: { id: "member_photo", x: 644.9, y: 174.81, width: 300, height: 350, isLocked: false, objectFit: "cover", borderRadius: 24, imageScale: 1.0, imageOffsetX: 0, imageOffsetY: 0 }
     },
@@ -111,7 +111,9 @@ const App: React.FC<AppProps> = ({ onLogout }) => {
     validityText: "15 ತಿಂಗಳು",
     isValidityEnabled: true,
     phoneNumber: "+91 98442 12155",
-    bloodGroup: "O +ve"
+    bloodGroup: "O +ve",
+    city: "ಬೆಂಗಳೂರು ನಗರ ಜಿಲ್ಲೆ",
+    employeeId: "1529"
   });
 
   const [layouts, setLayouts] = useState<{ [key in TemplateType]: FullLayout }>({
@@ -477,6 +479,23 @@ const App: React.FC<AppProps> = ({ onLogout }) => {
                 <input type="text" value={certificateData.memberPost} onChange={e => setCertificateData(p => ({...p, memberPost: e.target.value}))} className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-bold text-slate-900 focus:ring-2 focus:ring-red-600 transition-all" />
               </div>
 
+              {activeTemplate === 'id_card' && (
+                <>
+                  <div className="space-y-1">
+                    <label className="text-[8px] font-black text-slate-500 uppercase ml-1">City</label>
+                    <input type="text" value={certificateData.city} onChange={e => setCertificateData(p => ({...p, city: e.target.value}))} className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-bold text-slate-900 focus:ring-2 focus:ring-red-600 transition-all" />
+                  </div>
+                  <div className="space-y-1">
+                    <label className="text-[8px] font-black text-slate-500 uppercase ml-1">Employee ID</label>
+                    <input type="text" value={certificateData.employeeId} onChange={e => setCertificateData(p => ({...p, employeeId: e.target.value}))} className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-bold text-slate-900 focus:ring-2 focus:ring-red-600 transition-all" />
+                  </div>
+                  <div className="space-y-1">
+                    <label className="text-[8px] font-black text-slate-500 uppercase ml-1">Phone Number</label>
+                    <input type="text" value={certificateData.phoneNumber} onChange={e => setCertificateData(p => ({...p, phoneNumber: e.target.value}))} className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-bold text-slate-900 focus:ring-2 focus:ring-red-600 transition-all" />
+                  </div>
+                </>
+              )}
+
               <ColorSelector label="Name & Post Color" activeColor={certificateData.accentColor} onChange={c => handleColorChange('accentColor', c)} />
               <ColorSelector label="Body Text Color" activeColor={certificateData.mainTextColor} onChange={c => handleColorChange('mainTextColor', c)} />
             </div>
@@ -646,7 +665,7 @@ const App: React.FC<AppProps> = ({ onLogout }) => {
                     }}
                   >
                     <div className="kannada-font w-full whitespace-pre-wrap select-none" style={{ fontSize: `${item.fontSize}px`, color: baseColor, fontWeight: item.isBold ? '900' : 'normal', lineHeight: item.lineHeight }}>
-                      {item.text.split(/({name}|{post}|{date}|{validity}|{phone}|{blood})/).map((part, i) => {
+                      {item.text.split(/({name}|{post}|{date}|{validity}|{phone}|{blood}|{city}|{employeeId})/).map((part, i) => {
                         const isPrimary = ['{name}', '{post}'].includes(part);
                         const dynamicSize = (isCert && isPrimary) ? '105%' : undefined;
                         
@@ -656,6 +675,8 @@ const App: React.FC<AppProps> = ({ onLogout }) => {
                         if (part === '{validity}') return <span key={i}>{certificateData.validityText}</span>;
                         if (part === '{phone}') return <span key={i}>{certificateData.phoneNumber}</span>;
                         if (part === '{blood}') return <span key={i} style={{ color: certificateData.accentColor, fontWeight: '900' }}>{certificateData.bloodGroup}</span>;
+                        if (part === '{city}') return <span key={i}>{certificateData.city}</span>;
+                        if (part === '{employeeId}') return <span key={i}>{certificateData.employeeId}</span>;
                         return part;
                       })}
                     </div>
