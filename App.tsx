@@ -30,7 +30,7 @@ const STORAGE_KEY_PREFIX = 'krv_studio_v21';
 const TEMPLATE_URLS = {
   cert1: 'https://raw.githubusercontent.com/harishmerwade/KRV/709c8c68706c31a15dd4b87607082457cc7950d0/Img/temp%201.png',
   cert2: 'https://raw.githubusercontent.com/harishmerwade/KRV/709c8c68706c31a15dd4b87607082457cc7950d0/Img/temp%202.png',
-  id_front: 'https://raw.githubusercontent.com/harishmerwade/KRV/709c8c68706c31a15dd4b87607082457cc7950d0/Img/1.png',
+  id_front: 'https://raw.githubusercontent.com/harishmerwade/KRV/01db17fc1b9b8abd5cd53129a0d41af4b82cd3d7/Img/1.png',
   id_back: 'https://raw.githubusercontent.com/harishmerwade/KRV/4f41320da84f031c49204ae4b282ca72acc4119a/Img/2.png' 
 };
 
