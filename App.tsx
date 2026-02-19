@@ -48,7 +48,7 @@ const INITIAL_LAYOUT_CERT1: FullLayout = {
       { id: "validity_label", text: "ಸಿಂಧುತ್ವ: {validity}", x: 50, y: 1182, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 300, lineHeight: 1.2, isVisible: true },
       { id: "right_president_block", text: "ಹೆಚ್. ಶಿವರಾಮೇಗೌಡ\nರಾಜ್ಯಾಧ್ಯಕ್ಷರು", x: 600, y: 1146, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 350, lineHeight: 1.5, isVisible: true }
     ],
-      photo: { id: "member_photo", x: 761, y: 304, width: 158, height: 190, isLocked: true, objectFit: "cover", borderRadius: 0, imageScale: 0.92, imageOffsetX: 0, imageOffsetY: -2 }
+      photo: { id: "member_photo", x: 706, y: 286, width: 227, height: 227, isLocked: true, objectFit: "cover", borderRadius: 0, imageScale: 0.92, imageOffsetX: 0, imageOffsetY: -2 }
   }]
 };
 
@@ -66,7 +66,7 @@ const INITIAL_LAYOUT_CERT2: FullLayout = {
       { id: "validity_label", text: "ಸಿಂಧುತ್ವ: {validity}", x: 84.01, y: 1184.42, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 300, lineHeight: 1.2, isVisible: true },
       { id: "right_president_block", text: "ಹೆಚ್. ಶಿವರಾಮೇಗೌಡ\nರಾಜ್ಯಾಧ್ಯಕ್ಷರು", x: 626.72, y: 1146, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 350, lineHeight: 1.5, isVisible: true }
     ],
-    photo: { id: "member_photo", x: 747.35, y: 277.27, width: 160, height: 200, isLocked: false, objectFit: "cover", borderRadius: 12, imageScale: 0.97, imageOffsetX: 0, imageOffsetY: -2 }
+    photo: { id: "member_photo", x: 723, y: 236, width: 217, height: 254, isLocked: false, objectFit: "cover", borderRadius: 12, imageScale: 0.97, imageOffsetX: 0, imageOffsetY: -2 }
   }]
 };
 
@@ -81,7 +81,7 @@ const INITIAL_LAYOUT_ID: FullLayout = {
         { id: "id_post", text: "{post}", x: 238.27567164179106, y: 314.05, fontSize: 24, color: "#c53030", isBold: true, isLocked: false, width: 500, lineHeight: 1.2, isVisible: true },
         { id: "id_contact", text: "{city}\nನೊಂದಣಿ ಸಂಖ್ಯೆ : {employeeId}\n{phone}", x: 245.8307462686567, y: 351.8858208955224, fontSize: 18, color: "#000000", isBold: true, isLocked: false, width: 500, lineHeight: 1.8, isVisible: true }
       ],
-      photo: { id: "member_photo", x: 686.14776119403, y: 200.6417910447761, width: 265, height: 308, isLocked: false, objectFit: "cover", borderRadius: 8, imageScale: 1.22, imageOffsetX: 14, imageOffsetY: -3 }
+      photo: { id: "member_photo", x: 646, y: 159, width: 324, height: 387, isLocked: false, objectFit: "cover", borderRadius: 8, imageScale: 1.22, imageOffsetX: 14, imageOffsetY: -3 }
     },
     {
       canvasWidth: 1000,
