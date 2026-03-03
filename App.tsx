@@ -31,7 +31,7 @@ const TEMPLATE_URLS = {
   cert1: 'https://raw.githubusercontent.com/harishmerwade/KRV/4e14d33b371d6ca24e84970bf5ffd31ec4904a9c/Img/temp%201.png',
   cert2: 'https://raw.githubusercontent.com/harishmerwade/KRV/4e14d33b371d6ca24e84970bf5ffd31ec4904a9c/Img/temp%202.png',
   id_front: 'https://raw.githubusercontent.com/harishmerwade/KRV/9f45cb47c6e17235b64d4381374692296202852b/Img/1.png',
-  id_back: 'https://raw.githubusercontent.com/harishmerwade/KRV/478b190782e2b5c7a7ae830647cd63b26b8b38fc/Img/2.png'
+  id_back: 'https://raw.githubusercontent.com/harishmerwade/KRV/82111b99eb25d019b7c196bcfc76b898c133579b/Img/2.png'
 };
 
 const INITIAL_LAYOUT_CERT1: FullLayout = {
