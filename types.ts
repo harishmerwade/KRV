@@ -43,6 +43,7 @@ export interface CertificateData {
   city?: string;
   employeeId?: string;
   presidentName?: string;
+  presidentTitle?: string;
   showBottomPhoto?: boolean;
 }
 
