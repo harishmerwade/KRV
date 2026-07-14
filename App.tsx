@@ -46,7 +46,7 @@ const INITIAL_LAYOUT_CERT1: FullLayout = {
       { id: "appointment_block", text: "ಶ್ರೀಮತಿ/ಶ್ರೀಯುತ {name} ರವರನ್ನು ರಾಜ್ಯಾಧ್ಯಕ್ಷರ ಹಾಗೂ ಸರ್ವಸಮಿತಿಯ ಆದೇಶದ ಮೇರೆಗೆ {post} ರನ್ನಾಗಿ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದ್ದು, ಶ್ರೀಯುತರು ಇಂದಿನಿಂದ ತಮ್ಮ ವ್ಯಾಪ್ತಿಯಲ್ಲಿ ಸಂಘಟನೆಯನ್ನು ಕ್ರಿಯಾಶೀಲರಾಗಿ ಮುನ್ನಡೆಸಿಕೊಂಡು ಹಾಗೂ ಯಾವುದೇ ಕಾನೂನುಬಾಹಿರ ಚಟುವಟಿಕೆಗಳಲ್ಲಿ ಭಾಗಿಯಾಗದೇ ತಮ್ಮ ಜವಾಬ್ದಾರಿಯನ್ನು ದುರುಪಯೋಗಪಡಿಸಿಕೊಳ್ಳದಂತೆ ಮುಂದುವರೆಯಬೇಕೆಂದು ಆದೇಶಿಸುತ್ತೇನೆ.", x: 48.55, y: 872.42, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 897, lineHeight: 1.75, isVisible: true },
       { id: "left_date_office", text: "ದಿನಾಂಕ : {date}\nಬೆಂಗಳೂರು ನಗರ ಕೇಂದ್ರ ಕಛೇರಿ", x: 32.99, y: 1119.71, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 350, lineHeight: 1.5, isVisible: true },
       { id: "validity_label", text: "ಸಿಂಧುತ್ವ: {validity}", x: 50, y: 1182, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 300, lineHeight: 1.2, isVisible: true },
-      { id: "right_president_block", text: "{president}\nರಾಜ್ಯಾಧ್ಯಕ್ಷರು", x: 600, y: 1146, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 350, lineHeight: 1.5, isVisible: true }
+      { id: "right_president_block", text: "{president}\n{presidentTitle}", x: 600, y: 1146, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 350, lineHeight: 1.5, isVisible: true }
     ],
     photo: { id: "member_photo", x: 395, y: -84, width: 892, height: 939, isLocked: true, objectFit: "cover", borderRadius: 0, imageScale: 0.27, imageOffsetX: 0, imageOffsetY: -2 },
     photo2: { id: "bottom_photo", x: 60, y: 1080, width: 250, height: 250, isLocked: false, objectFit: "contain", borderRadius: 0, imageScale: 1.0, imageOffsetX: 0, imageOffsetY: 0 }
@@ -62,10 +62,10 @@ const INITIAL_LAYOUT_CERT2: FullLayout = {
       { id: "pledge_text_1", text: "ಹೆಚ್. ಶಿವರಾಮೇಗೌಡರ ಕರ್ನಾಟಕ ರಕ್ಷಣಾ ವೇದಿಕೆಯ ರಾಜ್ಯಾಧ್ಯಕ್ಷರ ನೇತೃತ್ವದಲ್ಲಿ ಸತ್ಯ, ನ್ಯಾಯ-ಧರ್ಮವನ್ನು ಪಾಲಿಸಿಕೊಂಡು, ಆತ್ಮಪೂರ್ವಕವಾಗಿ ಈ ಕೆಳಕಂಡ ಪ್ರತಿಜ್ಞಾವಿಧಿಯ ಪ್ರಮಾಣವಚನ ಸ್ವೀಕರಿಸುತ್ತಿದ್ದೇನೆ", x: 19.9, y: 506.99, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 965, lineHeight: 1.6, isVisible: true },
       { id: "pledge_text_2", text: "ಕನ್ನಡ ನಾಡು, ನುಡಿ, ನೆಲ, ಜಲ, ಗಡಿ, ಭಾಷೆ ಸಂಸ್ಕೃತಿಯನ್ನು ಉಳಿಸಿ ಬೆಳೆಸುವ ಮಹತ್ತರ ಕಾರ್ಯದಲ್ಲಿ ನಾವೆಲ್ಲರೂ ಕನ್ನಡಾಂಬೆಯ ಸುಪುತ್ರ / ಸುಪುತ್ರಿಯರಾಗಿ ಒಮ್ಮತದಿಂದ ಶ್ರಮಿಸುತ್ತೇವೆ ಎಂದು ಈ ಮೂಲಕ ಪ್ರತಿಜ್ಞೆ ಮಾಡಿ ಕೆಳಗೆ ಸಹಿ ಹಾಕಿರುತ್ತೇನೆ.", x: 48.54, y: 574.4, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 907, lineHeight: 1.6, isVisible: true },
       { id: "recipient_sig_label", text: "ಪ್ರತಿಜ್ಞಾವಿಧಿ ಸ್ವೀಕರಿಸಿದವರ ಸಹಿ", x: 651.26, y: 734.65, fontSize: 18, color: "#000000", isBold: true, isLocked: false, width: 300, lineHeight: 1.2, isVisible: true },
-      { id: "appointment_block", text: "ಶ್ರೀಮತಿ/ಶ್ರೀಯುತ {name} ರವರನ್ನು ರಾಜ್ಯಾಧ್ಯಕ್ಷರ ಹಾಗೂ ಸರ್ವಸಮಿತಿಯ ಆದೇಶದ ಮೇರೆಗೆ {post} ರನ್ನಾಗಿ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದ್ದು, ಶ್ರೀಯುತರು ಇಂದಿನಿಂದ ತಮ್ಮ ವ್ಯಾಪ್ತಿಯಲ್ಲಿ ಸಂಘಟನೆಯನ್ನು ಕ್ರಿಯಾಶೀಲರಾಗಿ ಮುನ್ನಡೆಸಿಕೊಂಡು ಹಾಗೂ ಯಾವುದೇ ಕಾನೂನುಬಾಹಿರ ಚಟುವಟಿಕೆಗಳಲ್ಲಿ भागಿಯಾಗದೇ ತಮ್ಮ ಜವಾಬ್ದಾರಿಯನ್ನು ದುರುಪಯೋಗಪಡಿಸಿಕೊಳ್ಳದಂತೆ ಮುಂದುವರೆಯಬೇಕೆಂದು ಆದೇಶಿಸುತ್ತೇನೆ.", x: 48.23, y: 825.54, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 872, lineHeight: 1.8, isVisible: true },
+      { id: "appointment_block", text: "ಶ್ರೀಮತಿ/ಶ್ರೀಯುತ {name} ರವರನ್ನು ರಾಜ್ಯಾಧ್ಯಕ್ಷರ ಹಾಗೂ ಸರ್ವಸಮಿತಿಯ ಆದೇಶದ ಮೇರೆಗೆ {post} ರನ್ನಾಗಿ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದ್ದು, ಶ್ರೀಯುತರು ಇಂದಿನಿಂದ ತಮ್ಮ ವ್ಯಾಪ್ತಿಯಲ್ಲಿ ಸಂಘಟನೆಯನ್ನು ಕ್ರಿಯಾಶೀಲರಾಗಿ ಮುನ್ನಡೆಸಿಕೊಂಡು ಹಾಗೂ ಯಾವುದೇ ಕಾನೂನುಬಾಹಿರ ಚಟುವಟಿಕೆಗಳಲ್ಲಿ ಭಾಗಿಯಾಗದೇ ತಮ್ಮ ಜವಾಬ್ದಾರಿಯನ್ನು ದುರುಪಯೋಗಪಡಿಸಿಕೊಳ್ಳದಂತೆ ಮುಂದುವರೆಯಬೇಕೆಂದು ಆದೇಶಿಸುತ್ತೇನೆ.", x: 48.23, y: 825.54, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 872, lineHeight: 1.8, isVisible: true },
       { id: "left_date_office", text: "ದಿನಾಂಕ : {date}\nಬೆಂಗಳೂರು ನಗರ ಕೇಂದ್ರ ಕಛೇರಿ", x: 50, y: 1127, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 350, lineHeight: 1.5, isVisible: true },
       { id: "validity_label", text: "ಸಿಂಧುತ್ವ: {validity}", x: 84.01, y: 1184.42, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 300, lineHeight: 1.2, isVisible: true },
-      { id: "right_president_block", text: "{president}\nರಾಜ್ಯಾಧ್ಯಕ್ಷರು", x: 626.72, y: 1146, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 350, lineHeight: 1.5, isVisible: true }
+      { id: "right_president_block", text: "{president}\n{presidentTitle}", x: 626.72, y: 1146, fontSize: 20, color: "#000000", isBold: true, isLocked: false, width: 350, lineHeight: 1.5, isVisible: true }
     ],
     photo: { id: "member_photo", x: 347, y: -275, width: 904, height: 1321, isLocked: false, objectFit: "cover", borderRadius: 12, imageScale: 0.24, imageOffsetX: 0, imageOffsetY: -2 },
     photo2: { id: "bottom_photo", x: 60, y: 1080, width: 250, height: 250, isLocked: false, objectFit: "contain", borderRadius: 0, imageScale: 1.0, imageOffsetX: 0, imageOffsetY: 0 }
@@ -117,6 +117,7 @@ const App: React.FC<AppProps> = ({ onLogout }) => {
     city: "ಬೆಂಗಳೂರು ನಗರ ಜಿಲ್ಲೆ",
     employeeId: "1529",
     presidentName: "ಹೆಚ್. ಶಿವರಾಮೇಗೌಡ",
+    presidentTitle: "ರಾಜ್ಯಾಧ್ಯಕ್ಷರು",
     showBottomPhoto: false
   });
 
@@ -490,10 +491,16 @@ const App: React.FC<AppProps> = ({ onLogout }) => {
                 <input type="text" value={certificateData.memberPost} onChange={e => setCertificateData(p => ({...p, memberPost: e.target.value}))} className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-bold text-slate-900 focus:ring-2 focus:ring-red-600 transition-all" />
               </div>
               {activeTemplate.startsWith('cert') && (
-                <div className="space-y-1">
-                  <label className="text-[8px] font-black text-slate-500 uppercase ml-1">President / Signatory Name</label>
-                  <input type="text" value={certificateData.presidentName || ''} onChange={e => setCertificateData(p => ({...p, presidentName: e.target.value}))} className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-bold text-slate-900 focus:ring-2 focus:ring-red-600 transition-all" />
-                </div>
+                <>
+                  <div className="space-y-1">
+                    <label className="text-[8px] font-black text-slate-500 uppercase ml-1">President / Signatory Name</label>
+                    <input type="text" value={certificateData.presidentName || ''} onChange={e => setCertificateData(p => ({...p, presidentName: e.target.value}))} className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-bold text-slate-900 focus:ring-2 focus:ring-red-600 transition-all" />
+                  </div>
+                  <div className="space-y-1">
+                    <label className="text-[8px] font-black text-slate-500 uppercase ml-1">President / Signatory Title</label>
+                    <input type="text" value={certificateData.presidentTitle || ''} onChange={e => setCertificateData(p => ({...p, presidentTitle: e.target.value}))} className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-bold text-slate-900 focus:ring-2 focus:ring-red-600 transition-all" />
+                  </div>
+                </>
               )}
 
               {activeTemplate === 'id_card' && (
